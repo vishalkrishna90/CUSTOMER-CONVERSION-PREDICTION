@@ -10,7 +10,9 @@ model = pkl.load(open('ccp_rfc.pkl', 'rb'))
 scaler = pkl.load(open('ccp_scaler.pkl','rb'))
 
 df = pd.read_csv('https://raw.githubusercontent.com/vishalkrishna90/CUSTOMER-CONVERSION-PREDICTION/main/customer_conversion_data.csv')
+
 st.title('Customer Conversion Prediction')
+st.image('ccp.jpg')
 
 ages,jobs,maritals =  st.columns(3)
 with ages:
