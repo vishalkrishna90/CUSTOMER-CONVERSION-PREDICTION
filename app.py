@@ -9,7 +9,7 @@ warning.filterwarnings('ignore')
 model = pkl.load(open('ccp_rfc.pkl', 'rb'))
 scaler = pkl.load(open('ccp_scaler.pkl','rb'))
 
-df = pd.read_csv('customer_conversion_data.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/vishalkrishna90/CUSTOMER-CONVERSION-PREDICTION/main/customer_conversion_data.csv')
 st.title('Customer Conversion Prediction')
 
 ages,jobs,maritals =  st.columns(3)
@@ -266,6 +266,6 @@ if result:
     scale_data = scaler.transform(data)
     res = model.predict(scale_data)
     if res == 1:
-        st.subheader('Client Will Subscribe To The Insurance')
+        st.subheader('Client Will Subscribe')
     else:
-        st.subheader('Client Will Not Subscribe To The Insurance')
+        st.subheader('Client Will Not Subscribe')
