@@ -6,6 +6,20 @@ This is a **Customer Conversion Prediction** project that I found during the Guv
 [Go To The Web App](https://customer-conversion-prediction.herokuapp.com/)
 
 ![Customer Conversion Prediction](https://github.com/vishalkrishna90/CUSTOMER-CONVERSION-PREDICTION/blob/main/Images/Web_app_1.png)
+
+**Author = Vishal Kumar Mridha**
+
+**Domain = Insurance**
+
+**Level = Intermediate**
+
+**Accuracy Score = 89%>**
+
+**Project Type = End To End Project**
+
+![User Libraries](https://github.com/vishalkrishna90/CUSTOMER-CONVERSION-PREDICTION/blob/main/Images/li_im.jpg)
+
+
 ## Process Followed To Complite This Project
 - Problem Statement
 - Data Collection 
@@ -19,12 +33,10 @@ This is a **Customer Conversion Prediction** project that I found during the Guv
 - Data Scaling
 - Model Building
 - Model Performances & Feature Importance
-- Rebuild Model With Imp Features
-- Final Score By The Best Model
 - Make Pickle File
 - Create New Enviornment
 - Create Web App With Streamlit
-- Upload All Files In Github repository
+- Upload All Files In Github Repository
 - Deploy Model On Heroku
 
 **Web App Overview**
@@ -204,6 +216,8 @@ In the end, I deployed the model on Heroku, so that anybody can use the web app
 
 ![Customer Conversion Prediction](https://github.com/vishalkrishna90/CUSTOMER-CONVERSION-PREDICTION/blob/main/Images/Web_app_1.png)
 ## Deployment Requirement Tools 
+
+![Deploy](https://github.com/vishalkrishna90/CUSTOMER-CONVERSION-PREDICTION/blob/main/Images/st_im.png)
 
  - [Streamlit](https://streamlit.io/)
  - [Github Account](https://github.com/)
